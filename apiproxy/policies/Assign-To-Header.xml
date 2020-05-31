@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-To-Header">
+    <DisplayName>Assign To Header</DisplayName>
+    <Set>
+        <Headers>
+            <Header name="Extracted-FirstName">
+                {PersonJSON.Extracted-FirstName}
+            </Header>
+            <Header name="Extracted-LastName">
+                {PersonJSON.Extracted-LastName}
+            </Header>
+            <Header name="Extracted-City">
+                {PersonJSON.Extracted-City}
+            </Header>
+            <Header name="Extracted-State">
+                {PersonJSON.Extracted-State}
+            </Header>
+        </Headers>
+        <Payload>
+            {PersonJSON.Extracted-Response}
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="true" transport="https" type="response"/>
+</AssignMessage>

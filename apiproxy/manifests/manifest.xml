@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Assign-To-Header" version="SHA-512:a58435b79cc13485cd476c67572283169fb3f85e166d39de7c4313a31a572c8a5b90c765b4b9141722059264e3e5f50484745e9e7d41c244eef881eb4eaa4783"/>
+        <VersionInfo resourceName="Extract-Variables-From-JSON" version="SHA-512:c7c28430272f28c05c477216f25a5a9165ff7f03ade0326477a25196174f4b77236b95a5c9acc042add53ce07cc2b0c9429acf48780eb0ea220787c93dad6479"/>
+        <VersionInfo resourceName="Extract-Variables-From-XML" version="SHA-512:d6e6f5a2d4f061e48dd4dc072e953ea31998f7f786a54238352602e43266c998b877ed26e421644c3cf8176348813034fcc8f65e7a69cf2c6323f827ae641648"/>
+        <VersionInfo resourceName="JavaScript-1" version="SHA-512:4161963c33495a989194624e61a9d1759f17286a9fc2831e6fd2e2667aa8e0ac1caa77c0d4522a6874a5126b0a7993c96b3a1e82355885181e88896675375fae"/>
+        <VersionInfo resourceName="XML-to-JSON-1" version="SHA-512:e837a7068e46e80e1af97a5e74d3c58364ad08fba6e32f0bddc6e072e3841353ae0809584cca9ed1b3df02216d729f1e2b21d84205cbb208d66c3cd9752d85ac"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:ee26a41ed6467c7b952f3a471ad293c713ba8ecdc17f54251344f0b1dd9bae14fdb7adf3a44dbb91797993cd2a7707cad6cfdc1a5b0b322319f37bf3c3f884e7"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://ReadResponse_SC" version="SHA-512:5808e58e798290d8fccebd45009d6e2f68de59abad3a744a6d730f6fc4f4522d6087156b3e4707faf54256fc71d45ee72b5b3d868eaf18b37aca848f22b01cc4"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9ef769b026780e6fcd8bf31ad9f0ed817ddeefbac2af2b3acc2112474bd00d72e996fa0aa63128ed9ed37374f98b432fe130ec205b543c5c3391d75b51a001cd"/>
+    </TargetEndpoints>
+</Manifest>

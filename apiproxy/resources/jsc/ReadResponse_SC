@@ -1,0 +1,5 @@
+print(response);
+print(context.getVariable("Person Details.City"));
+print(context.getVariable("Person Details.State"));
+print(context.getVariable("Person Details.First Name"));
+print(context.getVariable("Person Details.Last Name"));

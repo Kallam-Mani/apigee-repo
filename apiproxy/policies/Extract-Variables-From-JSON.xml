@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-Variables-From-JSON">
+    <DisplayName>Extract Variables-From JSON</DisplayName>
+    <Properties/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <JSONPayload>
+        <Variable name="Extracted-Response">
+            <JSONPath>$</JSONPath>
+        </Variable>
+        <Variable name="Extracted-FirstName">
+            <JSONPath>$.root.firstName</JSONPath>
+        </Variable>
+        <Variable name="Extracted-LastName">
+            <JSONPath>$.root.lastName</JSONPath>
+        </Variable>
+        <Variable name="Extracted-City">
+            <JSONPath>$.root.city</JSONPath>
+        </Variable>
+        <Variable name="Extracted-State">
+            <JSONPath>$.root.state</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <Source clearPayload="false">response</Source>
+    <VariablePrefix>PersonJSON</VariablePrefix>
+</ExtractVariables>

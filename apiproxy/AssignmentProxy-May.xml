@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="AssignmentProxy-May">
+    <Basepaths>/assignmentProxy1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1590948524734</CreatedAt>
+    <CreatedBy>kallam.manikanta@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>assignmentProxy1</DisplayName>
+    <LastModifiedAt>1590948835975</LastModifiedAt>
+    <LastModifiedBy>kallam.manikanta@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:44e5a24efaac43ea20a6696123ba1f35259c85bb17608c623acc98817c8189d90835b8157393b667145263224c2bd31eeea956d8fe3c7638ce13525592c7ca41</ManifestVersion>
+    <Policies>
+        <Policy>Assign-To-Header</Policy>
+        <Policy>Extract-Variables-From-JSON</Policy>
+        <Policy>Extract-Variables-From-XML</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://ReadResponse_SC</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

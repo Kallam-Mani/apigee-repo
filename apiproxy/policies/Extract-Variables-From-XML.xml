@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-Variables-From-XML">
+    <DisplayName>Extract-Variables- From XML</DisplayName>
+    <Properties/>
+    <URIPath name="name"/>
+    <QueryParam name="name"/>
+    <Header name="name"/>
+    <FormParam name="name"/>
+    <Variable name="name"/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source clearPayload="false">response</Source>
+    <VariablePrefix>Person Details</VariablePrefix>
+    <XMLPayload stopPayloadProcessing="false">
+        <Namespaces/>
+        <Variable name="City" type="String">
+            <XPath>//root/city</XPath>
+        </Variable>
+        <Variable name="First Name" type="String">
+            <XPath>//root/firstName</XPath>
+        </Variable>
+        <Variable name="Last Name" type="String">
+            <XPath>//root/lastName</XPath>
+        </Variable>
+        <Variable name="State" type="String">
+            <XPath>//root/state</XPath>
+        </Variable>
+    </XMLPayload>
+</ExtractVariables>
